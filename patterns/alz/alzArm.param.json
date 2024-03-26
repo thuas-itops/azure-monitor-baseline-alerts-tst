@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "contoso"
+      "value": "hhs"
     },
     "platformManagementGroup": {
-      "value": "contoso-platform"
+      "value": "hhs-platform"
     },
     "IdentityManagementGroup": {
-      "value": "contoso-identity"
+      "value": "hhs-platform-identity"
     },
     "managementManagementGroup": {
-      "value": "contoso-management"
+      "value": "hhs-platform-management"
     },
     "connectivityManagementGroup": {
-      "value": "contoso-connectivity"
+      "value": "hhs-platform-connectivity"
     },
     "LandingZoneManagementGroup": {
-      "value": "contoso-landingzones"
+      "value": "hhs-landingzones"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
@@ -44,7 +44,7 @@
     "policyAssignmentParametersCommon": {
       "value": {
         "ALZMonitorResourceGroupName": {
-          "value": "rg-amba-monitoring-001"
+          "value": "rg-prd-amba-monitoring-01"
         },
         "ALZMonitorResourceGroupTags": {
           "value": {
@@ -52,14 +52,14 @@
           }
         },
         "ALZMonitorResourceGroupLocation": {
-          "value": "eastus"
+          "value": "westeurope"
         }
       }
     },
     "policyAssignmentParametersNotificationAssets": {
       "value": {
         "ALZMonitorActionGroupEmail": {
-          "value": ""
+          "value": "azuremonitoring@hhs.nl"
         },
         "ALZLogicappResourceId": {
           "value": ""
